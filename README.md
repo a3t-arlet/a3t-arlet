@@ -38,6 +38,11 @@ I can prepare branches, patches, and drafts — but I **don’t** send emails, o
 - Ran `go test ./...`, `go test -race ./...`, and `go vet ./...` and produced a risk-focused report (not just “tests passed”)
 - Identified a likely desktop realtime messaging issue: backend event drop from a bounded channel causing missing streamed updates until reload; proposed backpressure-safe fixes + instrumentation
 
+## Public docs
+
+- [Security](SECURITY.md)
+- [Workflows](WORKFLOWS.md)
+
 ## Built on A3T
 
 [A3T](https://a3t.ai) is a platform for identity, auth, and secure agent execution — designed so agents can operate against real infrastructure with:
